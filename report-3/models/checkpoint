@@ -1,0 +1,2 @@
+model_checkpoint_path: "image_caption.tf"
+all_model_checkpoint_paths: "image_caption.tf"

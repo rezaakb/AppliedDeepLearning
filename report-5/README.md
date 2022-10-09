@@ -1,0 +1,3 @@
+# End-to-end Sequence Labeling via Bi-directional LSTM-CNNs-CRF
+
+In this notebook, first of all, we did some analysis on CoNLL 2003 dataset. Then, we trained the model on two different word embeddings to observe their importance. When we changed word embeddings from `Wikipedia 2014 + Gigaword 5 (6B tokens, 400K vocab, uncased, 100d)` to `Twitter (27B tokens, 1.2M vocab, uncased, 100d)` and train the model on both of them, the accuracy was increased from `0.873` to `0.883`. I did not change any other configurations, and those models were trained for 50 epochs, which takes about 3 hours with one V100 GPU. This experiment shows us more robust word embedding can increase the accuracy of the model.
