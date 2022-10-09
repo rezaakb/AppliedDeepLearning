@@ -1,4 +1,4 @@
-# biweekly-report-2-rezaakb
+# Implementing Different Data Augmentation Methods and Explorary Data Analysis on ImageNet
 
 In this notebook, first of all, we show the structure of the ImageNet dataset. Afterward, I did a simple EDA on that. In the next part of this report, I implement several data augmentation methods from ones that are introduced in the class to new methods. Finaly, I evaluate three models: Baseline model which is ResNet-50, ResNet-50 + MixUp, and ResNet-50 + CutMix. We can see the performance of the model with ResNet-50 + CutMix is better than other models.
 
