@@ -1,3 +1,16 @@
-# Training a simple neural network model with different optimizers on the Iris dataset
+# Biweekly Report 4 - Implement ViT from scratch and train it on EuroSAT
+### Reza Akbarian Bafghi
 
-In this notebook, first of all, we show the structure of datasets. Afterward, I did EDA on the Iris dataset introduced in the class. In the next part of this report, I defined a simple neural network, and I trained this network on the aforementioned dataset with different settings. I changed the optimizer, loss function, and learning rate to measure their importance on this dataset.
+In this notebook, first of all, I did EDA on EuroSAT, a dataset consisting of $10$ classes with $27,000$ labeled and geo-referenced samples. In the next part of this report, I implement ViT from scratch. Next, I trained this model for 20 epochs on mentioned dataset. Finaly, I evaluate this model on test dataset, and by using PCA and confusion matrix, I explained results.
+
+* **EDA - EuroSAT**
+* **ViT from scratch**
+    * Linear Projection of Flattened Patches
+    * Transformer Encoder
+    * ResNet
+* **Training**
+* **Evaluation**
+    * Confusion Matrix
+    * PCA
+* **Conclusions**
+* **Refrences**
