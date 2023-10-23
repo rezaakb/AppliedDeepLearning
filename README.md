@@ -1,7 +1,7 @@
 ### `report-1:` Implement ViT from scratch and train it on EuroSAT
 -------
 
-In this notebook, first of all, I did EDA on EuroSAT, a dataset consisting of $10$ classes with $27,000$ labeled and geo-referenced samples. In the next part of this report, I implement Vision Transformers model from scratch. Next, I trained this model for 20 epochs on mentioned dataset. Finaly, I evaluate this model on test dataset, and by using PCA and confusion matrix, I explained results.
+In this notebook, first of all, I did EDA on EuroSAT, a dataset consisting of 10 classes with 27,000 labeled and geo-referenced samples. In the next part of this report, I implement Vision Transformers model from scratch. Next, I trained this model for 20 epochs on mentioned dataset. Finaly, I evaluate this model on test dataset, and by using PCA and confusion matrix, I explained results.
 
 
 ### `report-2:` Exploratory Data Analysis - SQuADv2.0
